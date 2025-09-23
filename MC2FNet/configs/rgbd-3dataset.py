@@ -44,7 +44,7 @@ data = dict(
             # RGB-D
             "NLPR_TR",
             "NJUD_TR",
-            "DUTRGBD_TR",
+            "DUTLF-Depth_TR",
         ],
         shape=dict(h=256, w=256),
     ),
@@ -56,7 +56,7 @@ data = dict(
             "LFSD",
             "SIP",
             "STERE",
-            "DUTRGBD_TE",
+            "DUTLF-Depth_TE",
         ],
         shape=dict(h=256, w=256),
     ),
