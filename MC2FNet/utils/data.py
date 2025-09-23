@@ -61,7 +61,6 @@ def _get_dataset_info_with_keys(dataset_info: dict, extra_keys: list, path_colle
         assert k in dataset_info, f"{k} is not in {dataset_info}"
         infos[k] = dict(dir=dataset_info[k]["path"], ext=dataset_info[k]["suffix"])
 
-    # add code
     index_file_path = dataset_info.get("index_file", None)
     # if (index_file_path := dataset_info.get("index_file", None)) is not None:
     if (index_file_path) is not None:
