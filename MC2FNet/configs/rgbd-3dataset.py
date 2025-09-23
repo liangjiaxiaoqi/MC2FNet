@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/11/7
-# @Author  : Lart Pang
-# @GitHub  : https://github.com/lartpang
+# https://github.com/lartpang
 
 _base_ = ["base.py"]
 
@@ -44,34 +42,21 @@ data = dict(
     train=dict(
         name=[
             # RGB-D
-            # "NLPR_TR",
-            # "NJUD_TR",
-            # "DUTRGBD_TR",
-
-            # # RGB-T
-            "VT5000TR",
+            "NLPR_TR",
+            "NJUD_TR",
+            "DUTRGBD_TR",
         ],
-        shape=dict(h=256, w=256),#dict(h=256, w=256)(512,512)
+        shape=dict(h=256, w=256),
     ),
     test=dict(
         name=[
-            # # RGB-D
-            # "NJUD_TE",
-            # "NLPR_TE",
-            # "LFSD",
-            # "RGBD135",
-            # "SIP",
-            # "SSD",
-            # "STEREO1000",
-            # "DUTRGBD_TE",
-            # "REDWEBS_TE",
-            # # "COME_TE_E",
-            # # "COME_TE_H",
-
-            # RGB-T
-            "VT5000TE",
-            "VT1000",
-            "VT821",
+            # RGB-D
+            "NJUD_TE",
+            "NLPR_TE",
+            "LFSD",
+            "SIP",
+            "STERE",
+            "DUTRGBD_TE",
         ],
         shape=dict(h=256, w=256),
     ),
