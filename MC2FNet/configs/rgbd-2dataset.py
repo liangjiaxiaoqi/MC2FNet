@@ -54,7 +54,7 @@ data = dict(
             "LFSD",
             "SIP",
             "STERE",
-            "DUTLF-Depth_TE",
+            "DUTLF_Depth_TE",
         ],
         shape=dict(h=256, w=256),
     ),
