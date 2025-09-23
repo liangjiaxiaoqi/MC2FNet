@@ -101,7 +101,7 @@ class TeDataset(torch.utils.data.Dataset):
         self.depth_paths = self.datasets["depth"]
 
         # self.joint_trans = A.Compose([A.Resize(height=shape["h"], width=shape["w"]), A.Normalize()])
-        self.joint_trans = A.Compose([A.Resize(height=shape["h"], width=shape["w"]), A.Normalize()], is_check_shapes=False)    # add code of is_check_shapes=False about image and mask
+        self.joint_trans = A.Compose([A.Resize(height=shape["h"], width=shape["w"]), A.Normalize()], is_check_shapes=False)    # is_check_shapes=False about image and mask
 
     def __len__(self):
         return len(self.image_paths)
