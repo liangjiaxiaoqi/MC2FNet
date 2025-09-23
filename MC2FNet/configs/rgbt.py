@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020/11/7
-# @Author  : Lart Pang
-# @GitHub  : https://github.com/lartpang
+# https://github.com/lartpang
 
 _base_ = ["base.py"]
 
@@ -43,12 +41,14 @@ schedulers = dict(
 data = dict(
     train=dict(
         name=[
+            # RGB-T
             "VT5000TR",
         ],
         shape=dict(h=256, w=256),
     ),
     test=dict(
         name=[
+            # RGB-T
             "VT821",
             "VT1000",
             "VT5000TE",
