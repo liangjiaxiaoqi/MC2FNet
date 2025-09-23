@@ -38,12 +38,12 @@ STERE = dict(
     depth=dict(path=f"{_RGBD_SOD_ROOT}/STERE/Depth", suffix=".png"),
     mask=dict(path=f"{_RGBD_SOD_ROOT}/STERE/Mask", suffix=".png"),
 )
-DUTRGBD_TE = dict(
+DUTLF-Depth_TE = dict(
     image=dict(path=f"{_RGBD_SOD_ROOT}/DUTLF-Depth/Image", suffix=".jpg"),
     depth=dict(path=f"{_RGBD_SOD_ROOT}/DUTLF-Depth/Depth", suffix=".png"),
     mask=dict(path=f"{_RGBD_SOD_ROOT}/DUTLF-Depth/Mask", suffix=".png"),
 )
-DUTRGBD_TR = dict(
+DUTLF-Depth_TR = dict(
     image=dict(path=f"{_RGBD_SOD_ROOT}/Trainset/DUTLF-Depth/Image", suffix=".jpg"),
     depth=dict(path=f"{_RGBD_SOD_ROOT}/Trainset/DUTLF-Depth/Depth", suffix=".png"),
     mask=dict(path=f"{_RGBD_SOD_ROOT}/Trainset/DUTLF-Depth/Mask", suffix=".png"),
