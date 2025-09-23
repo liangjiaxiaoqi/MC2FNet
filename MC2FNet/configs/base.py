@@ -4,7 +4,7 @@ args = dict(
     deterministic=True,
     epoch_num=40,  # 训练周期, 0: directly test model
     batch_size=8,
-    num_workers=1,  # 不要太大, 不然运行多个程序同时训练的时候, 会造成数据读入速度受影响4
+    num_workers=1,  # 不要太大, 不然运行多个程序同时训练的时候, 会造成数据读入速度受影响
     print_freq=100,  # >0, 保存迭代过程中的信息
 )
 
