@@ -149,7 +149,7 @@ def eval_once(model, data_loader, save_path="", show_bar=True):
 
             pred = cv2.resize(pred, dsize=(mask_w, mask_h), interpolation=cv2.INTER_LINEAR)  # 0~1
 
-            if save_path:  # 这里的save_path包含了数据集名字
+            if save_path:
                 pred_name = os.path.splitext(batch["image_info"]["mask_name"][i])[0] + ".png"
                 ops.save_array_as_image(data_array=pred, save_name=pred_name, save_dir=save_path)
 
