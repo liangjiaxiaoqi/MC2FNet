@@ -3,7 +3,7 @@ Our new work about Multi-modal RGB-D/T Salient Object Detection.
 
 # Usage
 Step 1: Download MC2FNet from https://github.com/liangjiaxiaoqi/MC2FNet.  
-Step 2: Download the backbone pretrained parameters.  
+Step 2: Download the backbone pretrained parameters from https://pan.baidu.com/s/1rs7GbpSJP5FOdLgwiXTElA, and the extraction code is gnxq.  
 Step 3: Download the RGB-D/T dataset and set your data path in datasets.py. The RGB-D/T dataset link is https://pan.baidu.com/s/1zV5C8ckiPcYNL18PLxHmYQ, and the extraction code is ain7.  
 Step 4: Train and Evaluate  
 Step 5: Use PySODEvalToolkit to test the corresponding metrics and plot curves such as PR from https://github.com/lartpang/PySODEvalToolkit.  
