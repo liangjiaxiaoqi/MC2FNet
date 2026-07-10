@@ -95,7 +95,7 @@ python main.py --config ./configs/rgbt.py --model-name MC2FNet_ResNet --info rgb
 
 If you are interested in our research, please also check out related works in the field of multi-modal representation learning and salient object detection:
 
-● [Multi-Modal Hierarchical Fusion with Cross-Agent for RGB-D Salient Object Detection (ICASSP 2026, CCF-B)](https://github.com/liangjiaxiaoqi/HMaT-D)
+● [Multi-Modal Hierarchical Fusion with Cross-Agent for RGB-D Salient Object Detection (ICASSP 2026, CCF-B)](https://github.com/liangjiaxiaoqi/HMaT-D)  
 ● [HEFT: Hierarchical Enhanced Fusion Transformer for RGB-D Salient Object Detection (ICARM 2025, CAA-A)](https://ieeexplore.ieee.org/document/11293468)
 
 ---
