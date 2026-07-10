@@ -62,7 +62,7 @@ Extensive experiments demonstrate that MC2FNet achieves state-of-the-art perform
 
 <div align="center">
   <img src="docs/Visualization of MC2FNet.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 5: Visualization of RGB-D/T salient object detection by MC2FNet. CMFU<sub>i represents the decoder for each stage.</em></p>
+  <p><em>Figure 5: Visualization of RGB-D/T salient object detection by MC2FNet. CMFU<sub>i</sub> represents the decoder for each stage.</em></p>
 </div>
 
 ---
