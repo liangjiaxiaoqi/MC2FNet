@@ -98,7 +98,7 @@ If you are interested in our research, please also check out related works in th
 ● [Multi-Modal Hierarchical Fusion with Cross-Agent for RGB-D Salient Object Detection (ICASSP 2026, CCF-B)](https://github.com/liangjiaxiaoqi/HMaT-D)
 ● [HEFT: Hierarchical Enhanced Fusion Transformer for RGB-D Salient Object Detection (ICARM 2025, CAA-A)](https://ieeexplore.ieee.org/document/11293468)
 
---
+---
 
 ## ✒️ Citation
 
