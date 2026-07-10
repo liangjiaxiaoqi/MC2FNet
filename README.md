@@ -104,12 +104,13 @@ If you are interested in our research, please also check out related works in th
 
 If you find our work, model, or code useful for your research, please consider citing our paper in The Visual Computer:
 ```bibtex
-@article{liang2026mc2fnet,
-  title={MC2FNet: Multi-modal Cross-level Collaborative Fusion Network for RGB-D and RGB-T Salient Object Detection},
-  author={Liang, Jiaxiao and Others},
+@article{tan2026competitive,
+  title={Competitive fusion in multimodal networks for enhanced salient object detection},
+  author={Tan, H. and Wen, S. and Zhang, L. and others},
   journal={The Visual Computer},
+  volume={42},
+  pages={397},
   year={2026},
   publisher={Springer},
-  issn={0178-2789},
-  doi={10.1007/s00371-026-02xxxx-x}
+  doi={10.1007/s00371-026-04602-y}
 }
