@@ -18,7 +18,7 @@ python main.py --config ./configs/rgbt.py --model-name MC2FNet_ResNet --info rgb
 
 # MC2FNet: Competitive fusion in multimodal networks for enhanced salient object detection
 
-🎉 **News:** Our paper has been officially accepted by **The Visual Computer**! 🎉
+🎉🎉🎉 **News:** Our paper has been officially accepted by **The Visual Computer**! 🎉🎉🎉
 
 This repository contains the official PyTorch implementation of **MC2FNet**. In this work, we propose a Multi-Scale Cross-Modal Competitive Fusion Network designed for highly efficient multi-modal interaction in both RGB-D (Depth) and RGB-T (Thermal) Salient Object Detection (SOD) tasks.
 
@@ -40,8 +40,13 @@ This repository contains the official PyTorch implementation of **MC2FNet**. In 
 Extensive experiments demonstrate that MC2FNet achieves state-of-the-art performance against other methods on multiple widely-used RGB-D and RGB-T Salient Object Detection benchmarks.
 
 <div align="center">
-  <img src="docs/results.png" alt="Experimental Results" width="90%">
-  <p><em>Figure 2: Qualitative and Quantitative results of MC2FNet compared with State-of-the-Art methods.</em></p>
+  <img src="docs/RGB-T results.jpg" alt="Experimental Results" width="90%">
+  <p><em>Figure 2: Qualitative and Quantitative results of MC2FNet compared with RGB-T SOD State-of-the-Art methods.</em></p>
+</div>
+
+<div align="center">
+  <img src="docs/RGB-D results.jpg" alt="Experimental Results" width="90%">
+  <p><em>Figure 3: Qualitative and Quantitative results of MC2FNet compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
 ---
