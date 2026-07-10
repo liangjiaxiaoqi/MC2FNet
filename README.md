@@ -16,7 +16,7 @@ python main.py --config ./configs/rgbt.py --model-name MC2FNet_ResNet --info rgb
 -->
 
 
-# MC2FNet: Competitive fusion in multimodal networks for enhanced salient object detection
+# Competitive fusion in multimodal networks for enhanced salient object detection
 
 🎉🎉🎉 **News:** Our paper has been officially accepted by **The Visual Computer**! 🎉🎉🎉
 
