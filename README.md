@@ -29,7 +29,7 @@ This repository contains the official PyTorch implementation of **MC2FNet**. In 
 *Our MC2FNet effectively leverages multi-scale features and introduces a competitive fusion mechanism to deeply integrate cross-modal information, suppressing noise and highlighting salient regions across different modalities.*
 
 <div align="center">
-  <img src="docs/model.jpg" alt="MC2FNet Model Architecture" width="90%">
+  <img src="docs/model.jpg" alt="MC2FNet Model Architecture" width="100%">
   <p><em>Figure 1: Overall Architecture of the proposed MC2FNet.</em></p>
 </div>
 
