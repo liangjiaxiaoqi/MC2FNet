@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2024/12/8
-# @Author  : Xiaoqi Liang
+# @Author  : Hanzhong Tan (Xiaoqi Liang)
 # @GitHub  : https://github.com/liangjiaxiaoqi
 
 import timm
