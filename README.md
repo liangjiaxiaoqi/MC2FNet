@@ -88,3 +88,13 @@ Step 4: Train and Evaluate
 python main.py --config ./configs/rgbd-2dataset.py --model-name MC2FNet_ResNet --info rgbd-2dataset --pretrained ./pretrained/resnet101d.pth  
 python main.py --config ./configs/rgbd-3dataset.py --model-name MC2FNet_ResNet --info rgbd-3dataset --pretrained ./pretrained/resnet101d.pth  
 python main.py --config ./configs/rgbt.py --model-name MC2FNet_ResNet --info rgbt --pretrained ./pretrained/resnet101d.pth 
+
+---
+
+## 📚 Related Multi-Modal SOD Works
+
+If you are interested in our research, please also check out related works in the field of multi-modal representation learning and salient object detection:
+
+[Multi-Modal Hierarchical Fusion with Cross-Agent for RGB-D Salient Object Detection (ICASSP 2026)](https://github.com/liangjiaxiaoqi/HMaT-D)
+
+--
