@@ -52,12 +52,12 @@ Extensive experiments demonstrate that MC2FNet achieves state-of-the-art perform
 
 <div align="center">
   <img src="docs/RGB-T results.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 3: Qualitative and Quantitative results of MC2FNet compared with RGB-T SOD State-of-the-Art methods.</em></p>
+  <p><em>Figure 3: <!--Qualitative and -->Quantitative results of MC2FNet compared with RGB-T SOD State-of-the-Art methods.</em></p>
 </div>
 
 <div align="center">
   <img src="docs/RGB-D results.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 4: Qualitative and Quantitative results of MC2FNet compared with RGB-D SOD State-of-the-Art methods.</em></p>
+  <p><em>Figure 4: <!--Qualitative and -->Quantitative results of MC2FNet compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
 <div align="center">
