@@ -69,8 +69,22 @@ Extensive experiments demonstrate that MC2FNet achieves state-of-the-art perform
 
 ## 🛠️ Usage
 
+<!--
 ### Step 1: Clone the Repository
 Download MC2FNet from our GitHub repository:
 ```bash
 git clone [https://github.com/liangjiaxiaoqi/MC2FNet.git](https://github.com/liangjiaxiaoqi/MC2FNet.git)
 cd MC2FNet
+-->
+
+### Preparations
+Step 1: Cloned MC2FNet from https://github.com/liangjiaxiaoqi/MC2FNet.  
+Step 2: Download the backbone pretrained parameters from https://pan.baidu.com/s/1rs7GbpSJP5FOdLgwiXTElA, and the extraction code is gnxq.  
+Step 3: Download the RGB-D/T dataset and set your data path in datasets.py. The RGB-D/T dataset link is https://pan.baidu.com/s/1zV5C8ckiPcYNL18PLxHmYQ, and the extraction code is ain7.  
+Step 4: Train and Evaluate  
+<!--Step 5: Use PySODEvalToolkit to test the corresponding metrics and plot curves such as PR from https://github.com/lartpang/PySODEvalToolkit.-->  
+
+#### Train & Evaluate
+python main.py --config ./configs/rgbd-2dataset.py --model-name MC2FNet_ResNet --info rgbd-2dataset --pretrained ./pretrained/resnet101d.pth  
+python main.py --config ./configs/rgbd-3dataset.py --model-name MC2FNet_ResNet --info rgbd-3dataset --pretrained ./pretrained/resnet101d.pth  
+python main.py --config ./configs/rgbt.py --model-name MC2FNet_ResNet --info rgbt --pretrained ./pretrained/resnet101d.pth 
