@@ -24,13 +24,24 @@ This repository contains the official PyTorch implementation of **MC2FNet**. In 
 
 ---
 
+## ✨ Motivation
+
+In RGB-D/T salient object detection (SOD), the information representations of interference and target objects at the same depth or thermal are extremely similar, such as those of the red and yellow boxes in the figure, which may cause false detection. To address this issue, we propose MC2FNet.
+
+<div align="center">
+  <img src="docs/Examples of Failed Tests.jpg" alt="MC2FNet Model Architecture' Motivation" width=90%">
+  <p><em>Figure 1: In cases where detection fails when the target and background are similar in depth and thermal, the proposed MC2FNet can effectively mitigate this issue.</em></p>
+</div>
+
+---
+
 ## 🚀 Model Architecture
 
 *Our MC2FNet effectively leverages multi-scale features and introduces a competitive fusion mechanism to deeply integrate cross-modal information, suppressing noise and highlighting salient regions across different modalities.*
 
 <div align="center">
   <img src="docs/model.jpg" alt="MC2FNet Model Architecture" width=90%">
-  <p><em>Figure 1: Overall Architecture of the proposed MC2FNet.</em></p>
+  <p><em>Figure 2: Overall Architecture of the proposed MC2FNet.</em></p>
 </div>
 
 ---
@@ -41,12 +52,12 @@ Extensive experiments demonstrate that MC2FNet achieves state-of-the-art perform
 
 <div align="center">
   <img src="docs/RGB-T results.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 2: Qualitative and Quantitative results of MC2FNet compared with RGB-T SOD State-of-the-Art methods.</em></p>
+  <p><em>Figure 3: Qualitative and Quantitative results of MC2FNet compared with RGB-T SOD State-of-the-Art methods.</em></p>
 </div>
 
 <div align="center">
   <img src="docs/RGB-D results.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 3: Qualitative and Quantitative results of MC2FNet compared with RGB-D SOD State-of-the-Art methods.</em></p>
+  <p><em>Figure 4: Qualitative and Quantitative results of MC2FNet compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
 ---
