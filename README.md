@@ -114,3 +114,23 @@ If you find our work, model, or code useful for your research, please consider c
   publisher={Springer},
   doi={10.1007/s00371-026-04602-y}
 }
+
+@INPROCEEDINGS{11463330,
+  author={Tan, Hanzhong and Zhang, Yedong and Zhang, Lingfeng and Li, Jun and Hu, Tao and Wu, Fukui},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Multi-Modal Hierarchical Fusion with Cross-Agent for RGB-D Salient Object Detection}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={12952-12956},
+  doi={10.1109/ICASSP55912.2026.11463330}}
+
+@INPROCEEDINGS{11293468,
+  author={Tan, Hanzhong and Wen, Shuangbing and Zhu, Li and Huang, Haifeng and Zhang, Lingfeng and Li, Jun and Hu, Tao},
+  booktitle={2025 International Conference on Advanced Robotics and Mechatronics (ICARM)}, 
+  title={HEFT: Hierarchical Enhanced Fusion Transformer for RGB-D Salient Object Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={982-987},
+  doi={10.1109/ICARM65671.2025.11293468}}
