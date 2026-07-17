@@ -106,9 +106,10 @@ If you find our work, model, or code useful for your research, please consider c
 ```bibtex
 @article{tan2026competitive,
   title={Competitive fusion in multimodal networks for enhanced salient object detection},
-  author={Tan, H. and Wen, S. and Zhang, L. and others},
+  author={Tan, Hanzhong and Wen, Shuangbing and Zhang, Lingfeng and Li, Jun and Hu, Tao},
   journal={The Visual Computer},
   volume={42},
+  number={9},
   pages={397},
   year={2026},
   publisher={Springer},
